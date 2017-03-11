@@ -1,0 +1,57 @@
+cargo:include=/home/pi/.cargo/registry/src/github.com-1ecc6299db9ec823/ogg-sys-0.0.9/libogg/include
+TARGET = Some("arm-unknown-linux-gnueabihf")
+OPT_LEVEL = Some("3")
+TARGET = Some("arm-unknown-linux-gnueabihf")
+HOST = Some("arm-unknown-linux-gnueabihf")
+TARGET = Some("arm-unknown-linux-gnueabihf")
+TARGET = Some("arm-unknown-linux-gnueabihf")
+HOST = Some("arm-unknown-linux-gnueabihf")
+CC_arm-unknown-linux-gnueabihf = None
+CC_arm_unknown_linux_gnueabihf = None
+HOST_CC = None
+CC = None
+HOST = Some("arm-unknown-linux-gnueabihf")
+TARGET = Some("arm-unknown-linux-gnueabihf")
+HOST = Some("arm-unknown-linux-gnueabihf")
+CFLAGS_arm-unknown-linux-gnueabihf = None
+CFLAGS_arm_unknown_linux_gnueabihf = None
+HOST_CFLAGS = None
+CFLAGS = None
+PROFILE = Some("release")
+running: "cc" "-O3" "-ffunction-sections" "-fdata-sections" "-fPIC" "-march=armv6" "-marm" "-I" "/home/pi/.cargo/registry/src/github.com-1ecc6299db9ec823/ogg-sys-0.0.9/libogg/include" "-D_USRDLL" "-DLIBOGG_EXPORTS" "-o" "/home/pi/librespot/target/release/build/ogg-sys-de4488cc9f1ba28a/out/libogg/src/bitwise.o" "-c" "libogg/src/bitwise.c"
+ExitStatus(ExitStatus(0))
+TARGET = Some("arm-unknown-linux-gnueabihf")
+OPT_LEVEL = Some("3")
+TARGET = Some("arm-unknown-linux-gnueabihf")
+HOST = Some("arm-unknown-linux-gnueabihf")
+TARGET = Some("arm-unknown-linux-gnueabihf")
+TARGET = Some("arm-unknown-linux-gnueabihf")
+HOST = Some("arm-unknown-linux-gnueabihf")
+CC_arm-unknown-linux-gnueabihf = None
+CC_arm_unknown_linux_gnueabihf = None
+HOST_CC = None
+CC = None
+HOST = Some("arm-unknown-linux-gnueabihf")
+TARGET = Some("arm-unknown-linux-gnueabihf")
+HOST = Some("arm-unknown-linux-gnueabihf")
+CFLAGS_arm-unknown-linux-gnueabihf = None
+CFLAGS_arm_unknown_linux_gnueabihf = None
+HOST_CFLAGS = None
+CFLAGS = None
+PROFILE = Some("release")
+running: "cc" "-O3" "-ffunction-sections" "-fdata-sections" "-fPIC" "-march=armv6" "-marm" "-I" "/home/pi/.cargo/registry/src/github.com-1ecc6299db9ec823/ogg-sys-0.0.9/libogg/include" "-D_USRDLL" "-DLIBOGG_EXPORTS" "-o" "/home/pi/librespot/target/release/build/ogg-sys-de4488cc9f1ba28a/out/libogg/src/framing.o" "-c" "libogg/src/framing.c"
+ExitStatus(ExitStatus(0))
+TARGET = Some("arm-unknown-linux-gnueabihf")
+TARGET = Some("arm-unknown-linux-gnueabihf")
+HOST = Some("arm-unknown-linux-gnueabihf")
+AR_arm-unknown-linux-gnueabihf = None
+AR_arm_unknown_linux_gnueabihf = None
+HOST_AR = None
+AR = None
+TARGET = Some("arm-unknown-linux-gnueabihf")
+TARGET = Some("arm-unknown-linux-gnueabihf")
+running: "ar" "crs" "/home/pi/librespot/target/release/build/ogg-sys-de4488cc9f1ba28a/out/libogg.a" "/home/pi/librespot/target/release/build/ogg-sys-de4488cc9f1ba28a/out/libogg/src/bitwise.o" "/home/pi/librespot/target/release/build/ogg-sys-de4488cc9f1ba28a/out/libogg/src/framing.o"
+ExitStatus(ExitStatus(0))
+TARGET = Some("arm-unknown-linux-gnueabihf")
+cargo:rustc-link-lib=static=ogg
+cargo:rustc-link-search=native=/home/pi/librespot/target/release/build/ogg-sys-de4488cc9f1ba28a/out

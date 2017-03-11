@@ -1,0 +1,38 @@
+TARGET = Some("arm-unknown-linux-gnueabihf")
+OPT_LEVEL = Some("3")
+TARGET = Some("arm-unknown-linux-gnueabihf")
+TARGET = Some("arm-unknown-linux-gnueabihf")
+HOST = Some("arm-unknown-linux-gnueabihf")
+CFLAGS_arm-unknown-linux-gnueabihf = None
+CFLAGS_arm_unknown_linux_gnueabihf = None
+HOST_CFLAGS = None
+CFLAGS = None
+PROFILE = Some("release")
+running: "cc" "-O3" "-ffunction-sections" "-fdata-sections" "-fPIC" "-march=armv6" "-marm" "-o" "/home/pi/librespot/target/release/build/rust-crypto-493f4a6d389b6bd5/out/src/util_helpers.o" "-c" "src/util_helpers.c"
+ExitStatus(ExitStatus(0))
+TARGET = Some("arm-unknown-linux-gnueabihf")
+OPT_LEVEL = Some("3")
+TARGET = Some("arm-unknown-linux-gnueabihf")
+TARGET = Some("arm-unknown-linux-gnueabihf")
+HOST = Some("arm-unknown-linux-gnueabihf")
+CFLAGS_arm-unknown-linux-gnueabihf = None
+CFLAGS_arm_unknown_linux_gnueabihf = None
+HOST_CFLAGS = None
+CFLAGS = None
+PROFILE = Some("release")
+running: "cc" "-O3" "-ffunction-sections" "-fdata-sections" "-fPIC" "-march=armv6" "-marm" "-o" "/home/pi/librespot/target/release/build/rust-crypto-493f4a6d389b6bd5/out/src/aesni_helpers.o" "-c" "src/aesni_helpers.c"
+ExitStatus(ExitStatus(0))
+TARGET = Some("arm-unknown-linux-gnueabihf")
+TARGET = Some("arm-unknown-linux-gnueabihf")
+HOST = Some("arm-unknown-linux-gnueabihf")
+AR_arm-unknown-linux-gnueabihf = None
+AR_arm_unknown_linux_gnueabihf = None
+HOST_AR = None
+AR = None
+TARGET = Some("arm-unknown-linux-gnueabihf")
+TARGET = Some("arm-unknown-linux-gnueabihf")
+running: "ar" "crs" "/home/pi/librespot/target/release/build/rust-crypto-493f4a6d389b6bd5/out/lib_rust_crypto_helpers.a" "/home/pi/librespot/target/release/build/rust-crypto-493f4a6d389b6bd5/out/src/util_helpers.o" "/home/pi/librespot/target/release/build/rust-crypto-493f4a6d389b6bd5/out/src/aesni_helpers.o"
+ExitStatus(ExitStatus(0))
+TARGET = Some("arm-unknown-linux-gnueabihf")
+cargo:rustc-link-lib=static=_rust_crypto_helpers
+cargo:rustc-link-search=native=/home/pi/librespot/target/release/build/rust-crypto-493f4a6d389b6bd5/out

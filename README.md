@@ -4,6 +4,9 @@ applications to use Spotify's service, without using the official but
 closed-source libspotify. Additionally, it will provide extra features
 which are not available in the official library.
 
+## Build
+Built for Raspberry Pi Zero with PulseAudio backend.
+
 ## Building
 Rust 1.15.0 or later is required to build librespot.
 
